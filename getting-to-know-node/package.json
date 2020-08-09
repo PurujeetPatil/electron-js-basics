@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/atharva007-cmd/electron-js-basics/issues"
   },
-  "homepage": "https://github.com/atharva007-cmd/electron-js-basics#readme"
+  "homepage": "https://github.com/atharva007-cmd/electron-js-basics#readme",
+  "dependencies": {
+    "moment": "^2.27.0",
+    "semver": "^7.3.2"
+  }
 }
