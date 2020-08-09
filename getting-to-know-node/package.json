@@ -1,0 +1,19 @@
+{
+  "name": "custom-clock",
+  "version": "1.0.0",
+  "description": "Custom clock for getting to know some node-basics for development",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharva007-cmd/electron-js-basics.git"
+  },
+  "author": "Atharva Marathe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atharva007-cmd/electron-js-basics/issues"
+  },
+  "homepage": "https://github.com/atharva007-cmd/electron-js-basics#readme"
+}
