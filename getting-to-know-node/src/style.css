@@ -1,0 +1,19 @@
+h1 {
+    color: darkcyan;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: darkcyan;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    font-size: xx-large;
+    padding: 100px;
+    color: lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
