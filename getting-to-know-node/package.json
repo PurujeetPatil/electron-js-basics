@@ -4,7 +4,11 @@
   "description": "Custom clock for getting to know some node-basics for development",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "node ./src/scripts/prestart.js",
+    "start": "node ./src/scripts/start.js",
+    "test": "echo Hey, this is custom test dialog",
+    "custom": "node ./src/scripts/custom.js",
+    "all": "npm-run-all --parallel test custom"
   },
   "repository": {
     "type": "git",
@@ -19,5 +23,9 @@
   "dependencies": {
     "moment": "^2.27.0",
     "semver": "^7.3.2"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "npm-run-all": "^4.1.5"
   }
 }
