@@ -1,0 +1,1 @@
+console.log('Hey, this a custom test dialog message');
