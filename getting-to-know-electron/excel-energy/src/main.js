@@ -19,8 +19,10 @@ const createWindow = () => {
         webPreferences: {
             nodeIntegration: true
         },
-        fullscreen: true,
-        backgroundColor: '#fff',
+        minWidth: 1200,
+        minHeight: 600,
+        width: 1200,
+        height: 600,
         center: true,
         title: 'Energy Excel',
         autoHideMenuBar: true
