@@ -29,11 +29,12 @@ body {
 }
 
 .content {
+    margin-top: 150px;
+    margin-bottom: 50px;
     text-align: center;
     position: relative;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
 }
 
 .content h1 {
@@ -76,14 +77,46 @@ body {
     cursor: pointer;
 }
 
-.help-button {
-    border: solid 1px #2980b9;
-    color: #2980b9;
-    background: none;
+.form-content {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #212121;
 }
 
-.help-button:hover {
-    color: white;
-    background-color: #2980b9;
-    cursor: pointer;
+.form-content div {
+    margin: auto;
+}
+
+.form-content div form fieldset {
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #212121;
+	background: none;
+	box-shadow: inset 0px 0px 5px #212121;
+	-moz-box-shadow: inset 0px 0px 5px #212121;
+	-webkit-box-shadow: inset 0px 0px 5px #212121;
+}
+
+.form-content div form fieldset legend{
+	border-top: 1px solid #212121;
+	border-left: 1px solid #212121;
+	border-right: 1px solid #212121;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	background: #dedede;
+	padding: 8px 8px 5px 8px;
+    font-weight: normal;
+    font-size: medium;
+    font-style: italic;
+}
+
+.form-content div form fieldset label{
+	background: none;
+    font-weight: normal;
+    font-size: medium;
+    font-style: italic;
 }

@@ -45,3 +45,12 @@ const createWindow = () => {
 app.on('ready', async() => {
     await createWindow();
 });
+
+const createSheetButton = document.getElementById('create-sheet-button');
+createSheetButton.onclick = e => {
+    var cform = document.getElementById('crankshaft-form');
+    var ncform = document.getElementById('non-crankshaft-form');
+    var cformtext = '';
+    var ncformtext = '';
+    var i;
+}

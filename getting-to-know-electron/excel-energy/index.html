@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Energy Excel</title>
-    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/index.css">
 </head>
 
 <body>
@@ -24,8 +24,50 @@
             <h5>We are working on a new feature of connecting this applet to e-mail ...</h5>
             <br>
             <br>
-            <button class="button create-sheet-button">Create Sheet</button>
-            <button class="button help-button">Help</button>
+            <div class="form-content">
+                <div>
+                    <h2>Crankshaft</h2>
+                    <form id="crankshaft-form">
+                        <fieldset>
+                            <legend>Crankshaft</legend>
+                            <label for="Line-1"><span>Line-1</span><input type="number" min="0" name="Line-1" value="0"></label><br><br>
+                            <label for="Line-2"><span>Line-2</span><input type="number" min="0" name="Line-2" value="0"></label><br><br>
+                            <label for="Line-3"><span>Line-3</span><input type="number" min="0" name="Line-3" value="0"></label><br><br>
+                            <label for="Line-4"><span>Line-4</span><input type="number" min="0" name="Line-4" value="0"></label><br><br>
+                            <label for="Line-5"><span>Line-5</span><input type="number" min="0" name="Line-5" value="0"></label><br><br>
+                            <label for="Line-6"><span>Line-6</span><input type="number" min="0" name="Line-6" value="0"></label><br><br>
+                            <label for="Line-7"><span>Line-7</span><input type="number" min="0" name="Line-7" value="0"></label><br><br>
+                            <label for="Line-8"><span>Line-8</span><input type="number" min="0" name="Line-8" value="0"></label><br><br>
+                            <label for="Line-9"><span>Line-9</span><input type="number" min="0" name="Line-9" value="0"></label><br><br>
+                            <label for="Line-10"><span>Line-10</span><input type="number" min="0" name="Line-10" value="0"></label><br><br>
+                            <label for="Line-11"><span>Line-11</span><input type="number" min="0" name="Line-11" value="0"></label><br><br>         
+                        </fieldset>
+                    </form>
+                </div>
+                <div>
+                    <h2>Non-Crankshaft</h2>
+                    <form id="non-crankshaft-form">
+                        <fieldset>
+                            <legend>Non-Crankshaft</legend>
+                            <label for="Tube-Flange"><span style="padding-right: 10px;">Tube-Flange</span><input type="number" min="0" name="Tube-Flange" value="0"></label><br><br>
+                            <label for="K-Line"><span>K-Line</span><input type="number" min="0" name="K-Line" value="0"></label><br><br>
+                            <label for="Bracket"><span>Bracket</span><input type="number" min="0" name="Bracket" value="0"></label><br><br>
+                            <label for="LCVFAB"><span>LCVFAB</span><input type="number" min="0" name="LCVFAB" value="0"></label><br><br>
+                            <label for="NFAB"><span>NFAB</span><input type="number" min="0" name="NFAB" value="0"></label><br><br>
+                            <label for="NFAB-2"><span>NFAB-2</span><input type="number" min="0" name="NFAB-2" value="0"></label><br><br>
+                            <label for="RWL"><span>RWL</span><input type="number" min="0" name="RWL" value="0"></label><br><br>
+                            <label for="SNY"><span>SNY</span><input type="number" min="0" name="SNY" value="0"></label><br><br>
+                            <label for="Unisign"><span>Unisign</span><input type="number" min="0" name="Unisign" value="0"></label><br><br>
+                            <label for="Unisign-Module"><span>Unisign-Module</span><input type="number" min="0" name="Unisign-Module" value="0"></label><br><br>
+                            <label for="Matec"><span>Matec</span><input type="number" min="0" name="Matec" value="0"></label><br><br>              
+                        </fieldset>
+                    </form>
+                </div>           
+            </div>
+            <br><br>
+            <button class="button create-sheet-button" id="create-sheet-button">Create Sheet</button>
+
+            <p id="entered-text"></p>
         </div>
     </div>
 
